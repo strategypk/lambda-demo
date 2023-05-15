@@ -15,7 +15,7 @@ def lambda_handler(event, context):
         result = event['stockprice'] + event['commission']*0.10
     print("Total Billable : ", result)
     return result
-# test data -3
+# test data 4
 # lambda_handler({"stockprice":200,"commission":10, "transactiontype":"BUY"}, context=1)
 # lambda_handler({"stockprice":200,"commission":10, "transactiontype":"SELL"}, context=1)
 # lambda_handler({"stockprice":200,"commission":10, "transactiontype":"OTHERS"}, context=1)
