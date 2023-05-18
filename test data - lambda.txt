@@ -1,0 +1,5 @@
+{
+  "stockprice": 1000,
+  "commission": 100,
+  "transactiontype": "BUY"
+}

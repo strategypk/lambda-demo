@@ -12,7 +12,7 @@ def lambda_handler(event, context):
         print("Transaction Type - SELL")
         result = event['stockprice'] - event['commission']
     else :
-        result = event['stockprice'] + event['commission']*0.10
+        result = event['stockprice'] + event['commission']*0.50
     print("Total Billable : ", result)
     return result
 # test data 5
